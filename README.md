@@ -24,9 +24,9 @@ In this project you'll take take an almost completed e-commerce store and refact
 - [x] CD into the project base directory `cd react-shopping-cart`.
 - [x] Download project dependencies by running `npm install`.
 - [x] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: MVP
 
@@ -130,6 +130,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Our cart data is now being provided to us from our `CartContext` time to consume it!
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
 
 - Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
