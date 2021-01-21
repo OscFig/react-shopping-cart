@@ -130,7 +130,6 @@ const { products, addItem } = useContext(ProductContext);
 
 - Our cart data is now being provided to us from our `CartContext` time to consume it!
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
 
 - Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
@@ -141,6 +140,7 @@ const { products, addItem } = useContext(ProductContext);
   - Remove the `props` portion in our `getCartTotal` function
   - Remove `props` when we're mapping over our cart
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Time to do the same thing for our `Navigation` component.
   - First import the `useContext` hook and our `CartContext`
   - Next, pass our `CartContext` to the `useContext` hook and assign it to a variable named cart.
