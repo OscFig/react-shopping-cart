@@ -8,8 +8,9 @@ import CartContext from '../contexts/CartContext';
 
 const ShoppingCart = () => {
 
-    const cart = useContext(CartContext)
+    const {cart} = useContext(CartContext)
     console.log(cart, 'cart in Shopping cart')
+
 	const getCartTotal = () => {
 		return cart.reduce((acc, value) => {
 			return acc + value.price;
