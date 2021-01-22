@@ -14,7 +14,7 @@ const Products = () => {
 			{products.map(product => (
 				<Product
 					key={product.id}
-					products={product}
+					product={product}
 					addItem={addItem}
 				/>
 			))}
